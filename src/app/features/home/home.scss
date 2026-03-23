@@ -1,0 +1,48 @@
+.hero {
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero h2 {
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+
+.summary {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.actions {
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.primary {
+  background: #1976d2;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #1976d2;
+  color: #1976d2;
+}
+
+.highlight-section ul {
+  padding-left: 20px;
+}
+
+.certification {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}

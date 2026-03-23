@@ -1,0 +1,42 @@
+.projects-container {
+  display: grid;
+  gap: 20px;
+}
+
+.project-card {
+  border-radius: 12px;
+  padding: 20px;
+  background: #f8f9fa;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.company {
+  font-weight: bold;
+  color: #555;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.tech {
+  background: #e3f2fd;
+}
+
+.architecture {
+  background: #ede7f6;
+}
+
+.impact {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2e7d32;
+}

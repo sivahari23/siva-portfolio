@@ -1,0 +1,47 @@
+.timeline {
+  position: relative;
+  margin-left: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  background: #1976d2;
+  border-radius: 50%;
+  position: absolute;
+  left: -27px;
+  top: 6px;
+}
+
+.timeline-content {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.role {
+  font-weight: bold;
+}
+
+.duration {
+  font-size: 14px;
+  color: gray;
+}
+
+.tech-tags {
+  margin-top: 10px;
+}
+
+.tech-tag {
+  background: #e3f2fd;
+  padding: 5px 10px;
+  margin-right: 6px;
+  border-radius: 20px;
+  font-size: 12px;
+}

@@ -1,0 +1,21 @@
+body.light-theme {
+
+  background: white;
+  color: black;
+
+}
+
+body.dark-theme {
+
+  background: #121212;
+  color: white;
+
+}
+
+.dark-theme .project-card,
+.dark-theme .skill-card,
+.dark-theme .timeline-content {
+
+  background: #1e1e1e;
+
+}

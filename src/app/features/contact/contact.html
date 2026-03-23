@@ -1,0 +1,72 @@
+<h2>Contact Me</h2>
+
+<form
+  [formGroup]="contactForm"
+  (ngSubmit)="submitForm()"
+>
+
+  <label>Name</label>
+
+  <input
+    type="text"
+    formControlName="name"
+  />
+
+  @if (
+    contactForm.controls.name.invalid &&
+    contactForm.controls.name.touched
+  ) {
+
+    <small class="error">
+      Name is required
+    </small>
+
+  }
+
+
+  <label>Email</label>
+
+  <input
+    type="email"
+    formControlName="email"
+  />
+
+  @if (
+    contactForm.controls.email.invalid &&
+    contactForm.controls.email.touched
+  ) {
+
+    <small class="error">
+      Valid email required
+    </small>
+
+  }
+
+
+  <label>Message</label>
+
+  <textarea
+    rows="5"
+    formControlName="message"
+  ></textarea>
+
+  @if (
+    contactForm.controls.message.invalid &&
+    contactForm.controls.message.touched
+  ) {
+
+    <small class="error">
+      Minimum 10 characters required
+    </small>
+
+  }
+
+
+  <button
+    type="submit"
+    [disabled]="contactForm.invalid"
+  >
+    Send Message
+  </button>
+
+</form>

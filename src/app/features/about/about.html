@@ -1,0 +1,39 @@
+<h2>About Me</h2>
+
+<p class="intro">
+
+  Senior Angular Engineer with 4+ years experience building enterprise-scale
+  applications across financial services, insurance, and e-commerce platforms.
+  Specialized in Angular architecture, NgRx state management, Node.js BFF
+  integration, and AWS serverless solutions.
+
+</p>
+
+
+<div class="skills-grid">
+
+  @for (category of skillCategories(); track category.title) {
+
+    <div class="skill-card">
+
+      <h3>
+        {{ category.title }}
+      </h3>
+
+      <ul>
+
+        @for (skill of category.skills; track skill) {
+
+          <li>
+            {{ skill }}
+          </li>
+
+        }
+
+      </ul>
+
+    </div>
+
+  }
+
+</div>
